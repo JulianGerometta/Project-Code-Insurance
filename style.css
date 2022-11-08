@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    Font-size: 16px;
+    display: flex;
+    
+}
+
+.topnav{
+    display: flex;
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+    overflow: hidden;
+     position: relative;
+    height: 10vh;
+    
+
+}
+
+.title{
+    align-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.bb{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    cursor: pointer; 
+}
+
+.a{
+    
+    height: 60vh ;
+    width: 100vw;
+   
+}
+
+
+.pic{
+    height: 60vh;
+    width: 100vw;
+    
+    
+}
+
+.vio{
+    background-color:hsl(256, 26%, 20%);
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.btit{
+    color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+
+.cc{
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:hsl(256, 26%, 20%); 
+    color:white;
+    border-color: white;
+    
+}
+
+.viob{
+    position: absolute;
+    right: 0;
+    
+
+}
+
+hr {
+    width:50%;
+    margin:0 auto;
+}
+
+.diff{
+    text-align: center;
+}
+
+.pa{
+    color: hsl(216, 30%, 68%);
+}
+
+.laq{
+    border: solid;
+    height: 40vh;
+    margin: 30px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border:hsl(256, 26%, 20%); 
+    background-color: hsl(256, 26%, 20%); 
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.hola{
+    text-align: center;
+    color:hsl(256, 26%, 20%) ;
+    background-image: url(images/bg-pattern-footer-mobile.svg);
+
+}
+
+.hra{
+    width:90%;
+    padding: 2px;
+    margin:0 auto;
+}
+
+.last{
+    text-align: center;
+    color: hsl(256, 26%, 20%);
+    font-size: small;
+    font-weight: bold;
+}
+
+.lasttitle{
+    color: gray;
+    
+
+}
