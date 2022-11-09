@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 .body{
     height: 100vh;
     width: 100vw;
+    font-family:'karla' sans-serif;
     Font-size: 16px;
     display: flex;
     
@@ -18,9 +21,9 @@
     background-color: white;
     color: hsl(256, 26%, 20%);
     overflow: hidden;
-     position: relative;
+    position: relative;
     height: 10vh;
-    
+    justify-content: space-between;
 
 }
 
@@ -33,16 +36,20 @@
 
 .bb{
     flex-direction: row;
-    justify-content: space-between;
+   
     margin-left: auto;
     cursor: pointer; 
 }
 
+
+.barra{
+    display: none;
+}
+
+
 .a{
-    
     height: 60vh ;
     width: 100vw;
-   
 }
 
 
@@ -137,6 +144,35 @@ hr {
 
 .lasttitle{
     color: gray;
-    
+}
 
+@media screen and (min-width: 900px) {
+
+.topnav{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    
+} 
+
+.bb{
+    display: none;
+}
+
+.barra{
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ff{
+    border: 1px solid black;
+    padding: 5px 12px;
+    margin-left: 15px;
+}
+
+
+
+    
 }
