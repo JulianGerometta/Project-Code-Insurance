@@ -35,8 +35,7 @@
 }
 
 .bb{
-    flex-direction: row;
-   
+    flex-direction: row; 
     margin-left: auto;
     cursor: pointer; 
 }
@@ -90,6 +89,9 @@
 .viob{
     position: absolute;
     right: 0;
+    background-position-y: top;
+    top: 76%;
+    
     
 
 }
@@ -142,11 +144,20 @@ hr {
     font-weight: bold;
 }
 
-.lasttitle{
+.lasttitle{ 
     color: gray;
 }
 
 @media screen and (min-width: 900px) {
+
+/* below in green is to test if we have a white area to the right
+of the screen */
+/* html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; */
 
 .topnav{
     display: flex;
@@ -172,7 +183,5 @@ hr {
     margin-left: 15px;
 }
 
-
-
-    
+   
 }
