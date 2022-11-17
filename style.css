@@ -46,17 +46,16 @@
 }
 
 
-.a{
-    height: 60vh ;
-    width: 100vw;
-}
+
 
 
 .pic{
     height: 60vh;
-    width: 100vw;
-    
-    
+    width: 100vw; 
+}
+
+.deskimg{
+    display: none;
 }
 
 .vio{
@@ -67,6 +66,10 @@
     width: 100vw;
     text-align: center;
     
+}
+
+.line{
+    display: none;
 }
 
 .btit{
@@ -183,5 +186,53 @@ of the screen */
     margin-left: 15px;
 }
 
-   
+.pic{
+    display: none;
+}
+
+.vio{
+    height: 80vh;
+    flex-direction: column;
+}
+
+.deskimg{
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    position:relative;
+    top: 100px;
+    left: 200px;
+    float: right;
+    
+}
+
+.line{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.btit{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    top: 90px;
+
+}
+
+p{
+    text-align: left;
+    position: relative;
+    left: 20px; 
+    top: 90px;
+}
+
+.cc{
+    text-align: left;
+    position: relative;
+    left: 20px; 
+    top: 90px;
+}
+
 }
